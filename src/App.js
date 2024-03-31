@@ -1,6 +1,6 @@
 import './App.css';
 import  Question  from "./Components/Question.tsx";
-function App() {
+const App = () => {
   return (
      <Question />
   );
