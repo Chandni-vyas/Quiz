@@ -54,7 +54,7 @@ const Question = () => {
       });
 
       Promise.resolve().then(() => {
-        alert(`Correct Answer is: ${correctCount}`);
+        alert(`Your Quiz Result is: ${correctCount} Points`);
         fetchData();
       });
     }
